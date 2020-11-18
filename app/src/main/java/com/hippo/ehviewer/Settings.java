@@ -33,11 +33,7 @@ import com.hippo.glgallery.GalleryView;
 import com.hippo.unifile.UniFile;
 import com.hippo.util.ExceptionUtils;
 import com.hippo.yorozuya.AssertUtils;
-import com.hippo.yorozuya.FileUtils;
-import com.hippo.yorozuya.MathUtils;
 import com.hippo.yorozuya.NumberUtils;
-import java.io.File;
-import java.util.Locale;
 
 public class Settings {
 
@@ -51,16 +47,6 @@ public class Settings {
         sContext = context.getApplicationContext();
         sSettingsPre = PreferenceManager.getDefaultSharedPreferences(sContext);
         sEhConfig = loadEhConfig();
-        fixDefaultValue(context);
-    }
-
-    private static void fixDefaultValue(Context context) {
-        // Enable builtin hosts if the country is CN
-        if (!sSettingsPre.contains(KEY_BUILT_IN_HOSTS)) {
-            if ("CN".equals(Locale.getDefault().getCountry())) {
-                putBuiltInHosts(true);
-            }
-        }
     }
 
     private static EhConfig loadEhConfig() {
