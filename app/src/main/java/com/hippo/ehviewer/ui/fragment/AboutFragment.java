@@ -30,7 +30,6 @@ import android.widget.Toast;
 import androidx.appcompat.app.AlertDialog;
 import com.hippo.ehviewer.EhApplication;
 import com.hippo.ehviewer.R;
-import com.hippo.ehviewer.ui.CommonOperations;
 import com.hippo.util.AppHelper;
 import java.io.UnsupportedEncodingException;
 
@@ -65,8 +64,6 @@ public class AboutFragment extends PreferenceFragment
                     "About EhViewer", null);
         } else if (KEY_DONATE.equals(key)) {
             showDonationDialog();
-        } else if (KEY_CHECK_FOR_UPDATES.equals(key)) {
-            CommonOperations.checkUpdate(getActivity(), true);
         }
         return true;
     }
