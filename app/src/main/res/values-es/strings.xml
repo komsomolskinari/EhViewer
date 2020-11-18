@@ -466,8 +466,6 @@
     <string name="settings_about_license">Licencia</string>
     <string name="settings_about_license_summary">EhViewer es posible gracias a varios proyectos de código abierto</string>
     <string name="settings_about_donate">Donar</string>
-    <string name="settings_privacy_enable_analytics">Habilitar analytics</string>
-    <string name="settings_privacy_about_analytics">Acerca de analytics</string>
     <string name="settings_about_version">Versión de compilación</string>
     <string name="settings_about_check_for_updates">Verificar actualizaciones</string>
     <string name="settings_about_beta_update_channel">Canal de versiones de prueba</string>

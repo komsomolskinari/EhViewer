@@ -537,8 +537,6 @@
     <string name="settings_about_donate_open">เปิดลิงค์</string>
     <string name="settings_about_donate_copy">คัดลอก</string>
     <string name="settings_about_donate_copied">คัดลอกแล้ว</string>
-    <string name="settings_privacy_enable_analytics">เปิดการวิเคราะห์ข้อมูล</string>
-    <string name="settings_privacy_about_analytics">เกี่ยวกับการวิเคราะห์ข้อมูล</string>
     <string name="settings_about_version">เวอร์ชั่นแอป</string>
     <string name="settings_about_check_for_updates">ตรวจสอบการอัพเดต</string>
     <string name="settings_about_beta_update_channel">ใช้เวอร์ชั่นทดสอบ (Beta)</string>

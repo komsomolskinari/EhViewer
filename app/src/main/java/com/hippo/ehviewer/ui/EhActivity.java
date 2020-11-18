@@ -23,10 +23,8 @@ import android.view.WindowManager;
 import androidx.annotation.Nullable;
 import androidx.annotation.StyleRes;
 import androidx.appcompat.app.AppCompatActivity;
-import com.google.firebase.analytics.FirebaseAnalytics;
 import com.hippo.android.resource.AttrResources;
 import com.hippo.content.ContextLocalWrapper;
-import com.hippo.ehviewer.Analytics;
 import com.hippo.ehviewer.EhApplication;
 import com.hippo.ehviewer.R;
 import com.hippo.ehviewer.Settings;
@@ -44,10 +42,6 @@ public abstract class EhActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
 
         ((EhApplication) getApplication()).registerActivity(this);
-
-        if (Analytics.isEnabled()) {
-            FirebaseAnalytics.getInstance(this);
-        }
 
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP && Settings.getApplyNavBarThemeColor()) {
             getWindow().setNavigationBarColor(AttrResources.getAttrColor(this, R.attr.colorPrimaryDark));

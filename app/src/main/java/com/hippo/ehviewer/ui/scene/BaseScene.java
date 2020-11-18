@@ -33,7 +33,6 @@ import androidx.annotation.StringRes;
 import androidx.annotation.StyleRes;
 import androidx.fragment.app.FragmentActivity;
 import com.hippo.drawerlayout.DrawerLayout;
-import com.hippo.ehviewer.Analytics;
 import com.hippo.ehviewer.ui.MainActivity;
 import com.hippo.scene.SceneFragment;
 import com.hippo.util.AppHelper;
@@ -281,7 +280,6 @@ public abstract class BaseScene extends SceneFragment {
     @Override
     public void onResume() {
         super.onResume();
-        Analytics.onSceneView(this);
     }
 
     @Override

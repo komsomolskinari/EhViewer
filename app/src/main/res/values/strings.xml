@@ -632,8 +632,6 @@
     <string name="settings_about_donate_open">Open</string>
     <string name="settings_about_donate_copy">Copy</string>
     <string name="settings_about_donate_copied">Copied</string>
-    <string name="settings_privacy_enable_analytics">Enable analytics</string>
-    <string name="settings_privacy_about_analytics">About analytics</string>
     <string name="settings_about_version">Build version</string>
     <string name="settings_about_check_for_updates">Check for updates</string>
     <string name="settings_about_beta_update_channel">Beta update channel</string>
