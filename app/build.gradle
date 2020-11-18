@@ -6,7 +6,7 @@ android {
     defaultConfig {
         applicationId "com.hippo.ehviewer"
         minSdkVersion 23
-        targetSdkVersion 30
+        targetSdkVersion 28
         versionCode 104
         versionName "1.7.3"
         vectorDrawables.useSupportLibrary = true
